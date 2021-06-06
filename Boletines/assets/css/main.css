@@ -1,0 +1,167 @@
+/*
+Rosa: #C6426E
+Morado: #642B73
+Negro: #999
+Gris: #f5f5f5
+Rosa: #d500f9
+*/
+
+
+/* Aqui va el comentario */
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+html{
+      font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+a{
+  text-decoration: none;
+  color: #d800f9
+}
+
+.address{
+  font-weight: bold;
+  color: #003973;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-item{
+  border-bottom: solid 2px #C6426E;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+.main-image{
+  float: left;
+  margin-right: 1em;
+  height: 200px;
+}
+
+.position{
+  background-color: #C6426E;
+  color: white;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+
+.container {
+
+  background: #003973; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #003973, #e5e5be); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #003973, #e5e5be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 1.8em;
+  overflow: scroll;
+}
+
+.actions{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #003973;
+  display: inline-block;
+  box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.1);
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph{
+  line-height: 1.8em;
+  font-weight: 200;
+}
+
+.fa-star{
+  color: #ffc400;
+}
+
+p{
+  color:;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table td, .table th {
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even){background-color: #f3e5f5;}
+
+.red{
+  height: 200px;
+  width: 100px;
+  background: red;
+}
+
+#boton-pago{
+  background-color: yellow;
+}
+
+td{
+  border:solid 0px;
+}
+
+@media (max-width:600px) {
+  .content{
+    padding: 1em;
+  }
+  td{
+    display: block;
+    width: 100%;
+  }
+  td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #642B73;
+  }
+  th{
+    display: none;
+  }
+}
+
+@media (min-height:550px) {
+  .content{
+    height: 500px;
+  }
+}
